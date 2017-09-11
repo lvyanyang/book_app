@@ -1,0 +1,54 @@
+{
+    "title": "我的笔记",
+    "description": "记录平时积累与知识",
+    "author": "吕艳阳",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "readme.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "-sharing",
+        "search-plus@^0.0.11",
+        "prism@^2.1.0",
+        "prism-themes@^0.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+        "anchor-navigation-ex@1.0.10",
+        "todo@^0.1.3",
+        "expandable-chapters-small"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-atom-dark.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "西安交通信息 &copy 版权所有",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": false,
+            "printLog": false,
+            "multipleH1": false,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": true,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
+    }
+}
